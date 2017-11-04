@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "InstaSummary",
+  "description": "Summarizes the content of your current browser url.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "logo1.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs",
+
+    "https://ajax.googleapis.com/"
+  ]
+}
