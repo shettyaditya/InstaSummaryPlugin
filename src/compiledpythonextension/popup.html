@@ -37,10 +37,15 @@
   <script src="jquery.min.js"></script>
   </head>
   <body>
-    <img src="instasummary.png">    
-    <center><a class="waves-effect waves-light btn" background-color="purple"><i class="material-icons left">autorenew</i>Summarize!</a>
+    <form action = "" method = "post">
+    <img src="instasummary.png">
+    <input name="url" id="url"></input>
+    <center><a class="waves-effect waves-light btn" onclick="apiCall()" name="foo" value="summarize" background-color="purple"><i class="material-icons left">autorenew</i>Summarize!</a>
+
+
+    </form>
   <script type="text/javascript" src="hello.js"></script>
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-      <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
   </body>
 </html>
